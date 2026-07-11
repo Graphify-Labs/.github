@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://graphifylabs.ai"><img src="https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/logo.png" width="300" height="140" alt="Graphify"/></a>
+  <a href="https://graphify.com"><img src="https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/logo.png" width="300" height="140" alt="Graphify"/></a>
 </p>
 
 # Graphify
 
 **Understand your code — don't grep it.** We turn any folder of code, docs, PDFs, images, or video into a knowledge graph you *query, trace, and prove things about* instead of searching by hand.
 
-[Website](https://graphifylabs.ai) · [graphify (open source)](https://github.com/Graphify-Labs/graphify) · [PyPI](https://pypi.org/project/graphifyy/) · [Discord](https://discord.gg/598Ad9zQZ) · [LinkedIn](https://www.linkedin.com/company/graphify-labs)
+[Website](https://graphify.com) · [graphify (open source)](https://github.com/Graphify-Labs/graphify) · [PyPI](https://pypi.org/project/graphifyy/) · [Discord](https://discord.gg/598Ad9zQZ) · [LinkedIn](https://www.linkedin.com/company/graphify-labs)
 
 We ship two things, one idea: a **graph** of how your project actually fits together. The open-source tool builds that map on your machine for free. The enterprise platform builds a *smarter, verified* map — one that proves your changes are safe, remembers, learns, and runs entirely inside your own infrastructure.
 
@@ -59,6 +59,6 @@ The open-source tool tells you how your code fits together. **Enterprise tells y
 
 Start free on the open-source tool. Upgrade when you need to *prove* your code is right, share across a team, and keep everything inside your own infrastructure.
 
-**Talk to us:** [founders@graphifylabs.ai](mailto:founders@graphifylabs.ai) · [graphifylabs.ai](https://graphifylabs.ai) · [Discord](https://discord.gg/598Ad9zQZ)
+**Talk to us:** [founders@graphify.com](mailto:founders@graphify.com) · [graphify.com](https://graphify.com) · [Discord](https://discord.gg/598Ad9zQZ)
 
 _We think you're gonna like it here._
