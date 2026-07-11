@@ -59,6 +59,6 @@ The open-source tool tells you how your code fits together. **Enterprise tells y
 
 Start free on the open-source tool. Upgrade when you need to *prove* your code is right, share across a team, and keep everything inside your own infrastructure.
 
-**Talk to us:** [founders@graphify.com](mailto:founders@graphify.com) · [graphify.com](https://graphify.com) · [Discord](https://discord.gg/598Ad9zQZ)
+**Talk to us:** [founders@graphifylabs.ai](mailto:founders@graphifylabs.ai) · [graphify.com](https://graphify.com) · [Discord](https://discord.gg/598Ad9zQZ)
 
 _We think you're gonna like it here._
