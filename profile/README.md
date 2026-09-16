@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://graphify.com"><img src="https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/logo.png" width="300" height="140" alt="Graphify"/></a>
+  <a href="https://graphify.com"><img src="https://raw.githubusercontent.com/Graphify-Labs/.github/main/profile/graphify-logo.png" width="480" height="252" alt="Graphify"/></a>
 </p>
 
 # Graphify
