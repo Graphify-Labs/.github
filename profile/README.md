@@ -5,7 +5,7 @@
   <a href="https://pepy.tech/project/graphifyy"><img src="https://img.shields.io/pepy/dt/graphifyy?color=118d4f&label=downloads" alt="Downloads"/></a>
   <a href="https://docs.graphify.com"><img src="https://img.shields.io/badge/Docs-read-118d4f?style=flat&logo=readthedocs&logoColor=white" alt="Docs"/></a>
   <a href="https://docs.graphify.com/cookbooks/overview"><img src="https://img.shields.io/badge/Cookbooks-browse-118d4f?style=flat&logo=gitbook&logoColor=white" alt="Cookbooks"/></a>
-  <a href="https://app.graphify.com/org-mcp"><img src="https://img.shields.io/badge/MCP-server-118d4f?style=flat&logo=modelcontextprotocol&logoColor=white" alt="MCP server"/></a>
+  <a href="https://docs.graphify.com/platform/hosted-mcp"><img src="https://img.shields.io/badge/MCP-server-118d4f?style=flat&logo=modelcontextprotocol&logoColor=white" alt="MCP server"/></a>
   <a href="https://www.ycombinator.com/companies/graphify-labs"><img src="https://img.shields.io/badge/Y%20Combinator-S26-F0652F?style=flat&logo=ycombinator&logoColor=white" alt="YC S26"/></a>
   <a href="https://discord.graphify.com"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
 </p>
@@ -21,7 +21,7 @@
 <td width="50%" valign="top">
 
 ### Give agents context
-The [**Graphify MCP server**](https://app.graphify.com/org-mcp) and [**Graphify Cloud**](https://app.graphify.com) hand your agent the exact part of the graph it needs, across all your repos. Works with Claude Code, Cursor, Codex, OpenCode, Gemini CLI and any MCP client.
+The [**Graphify MCP server**](https://docs.graphify.com/platform/hosted-mcp) and [**Graphify Cloud**](https://app.graphify.com) hand your agent the exact part of the graph it needs, across all your repos. Works with Claude Code, Cursor, Codex, OpenCode, Gemini CLI and any MCP client.
 
 </td>
 </tr>
@@ -51,10 +51,10 @@ graphify install            # detects your assistant and registers the skill
 Then ask your agent about your codebase, or connect your repos to [**Graphify Cloud**](https://app.graphify.com) for PR review, verification and team-wide context.
 
 <p align="center">
-  <a href="https://app.graphify.com/org-trial-cta"><b>Try Graphify Cloud free →</b></a> ·
+  <a href="https://app.graphify.com/login"><b>Try Graphify Cloud free →</b></a> ·
   <a href="https://github.com/Graphify-Labs/graphify">graphify on GitHub</a> ·
   <a href="https://docs.graphify.com">Docs</a> ·
   <a href="https://discord.graphify.com">Discord</a> ·
-  <a href="https://app.graphify.com/org-x">X</a> ·
-  <a href="https://app.graphify.com/org-youtube">YouTube</a>
+  <a href="https://x.com/graphify">X</a> ·
+  <a href="https://www.youtube.com/@graphifylabs">YouTube</a>
 </p>
