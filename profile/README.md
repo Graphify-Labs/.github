@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://app.graphify.com/org-site"><img src="https://raw.githubusercontent.com/Graphify-Labs/.github/main/profile/assets/header.png" width="100%" alt="Graphify Labs: tools that help AI agents understand, build and verify software"/></a>
-</p>
-
-<p align="center"><b>Give your AI agents a map of your codebase, then check the code they write.</b></p>
+<p align="center"><b>Give your AI agents a map of your codebase, then verify the code they write.</b></p>
 
 <p align="center">
   <a href="https://github.com/Graphify-Labs/graphify"><img src="https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat&label=graphify%20stars&color=118d4f" alt="GitHub stars"/></a>
@@ -22,7 +18,7 @@
 <td width="50%" valign="top">
 
 ### Give agents context
-The [**Graphify MCP server**](https://app.graphify.com/org-mcp) and **Graphify Cloud** hand your agent the exact part of the graph it needs, across all your repos. Works with Claude Code, Cursor, Codex, OpenCode, Gemini CLI and any MCP client.
+The [**Graphify MCP server**](https://app.graphify.com/org-mcp) and [**Graphify Cloud**](https://app.graphify.com) hand your agent the exact part of the graph it needs, across all your repos. Works with Claude Code, Cursor, Codex, OpenCode, Gemini CLI and any MCP client.
 
 </td>
 </tr>
@@ -30,13 +26,13 @@ The [**Graphify MCP server**](https://app.graphify.com/org-mcp) and **Graphify C
 <td width="50%" valign="top">
 
 ### Review
-Graphify Cloud reviews your pull requests with the graph behind them, so findings point to real callers, blast radius and file:line, not guesses.
+[**Graphify Cloud**](https://app.graphify.com) reviews your pull requests with the graph behind them, so findings point to real callers, blast radius and file:line, not guesses.
 
 </td>
 <td width="50%" valign="top">
 
 ### Verify
-Graphify Cloud runs differential formal verification on pull requests: it compares the old and new code and shows what behaviour actually changed. [**REAgraph**](https://github.com/Graphify-Labs/REAgraph) is our open-source graph memory and structural diff for reverse engineering.
+[**Graphify Cloud**](https://app.graphify.com) runs differential formal verification on pull requests: it compares the old and new code and shows what behaviour actually changed.
 
 </td>
 </tr>
@@ -49,7 +45,7 @@ uv tool install graphifyy   # or: pipx install graphifyy
 graphify install            # detects your assistant and registers the skill
 ```
 
-Then ask your agent about your codebase, or connect your repos to [**Graphify Cloud**](https://app.graphify.com/org-trial-cta) for PR review, verification and team-wide context.
+Then ask your agent about your codebase, or connect your repos to [**Graphify Cloud**](https://app.graphify.com) for PR review, verification and team-wide context.
 
 <p align="center">
   <a href="https://app.graphify.com/org-trial-cta"><b>Try Graphify Cloud free →</b></a> ·
@@ -59,5 +55,3 @@ Then ask your agent about your codebase, or connect your repos to [**Graphify Cl
   <a href="https://app.graphify.com/org-x">X</a> ·
   <a href="https://app.graphify.com/org-youtube">YouTube</a>
 </p>
-
-<p align="center"><img src="https://raw.githubusercontent.com/Graphify-Labs/.github/main/profile/assets/footer.png" width="100%" alt="Graphify, graphify.com"/></p>
