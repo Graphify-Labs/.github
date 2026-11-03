@@ -1,64 +1,63 @@
 <p align="center">
-  <a href="https://graphify.com"><img src="https://raw.githubusercontent.com/Graphify-Labs/.github/main/profile/graphify-logo.png" width="480" height="252" alt="Graphify"/></a>
+  <a href="https://app.graphify.com/org-site"><img src="https://raw.githubusercontent.com/Graphify-Labs/.github/main/profile/assets/header.png" width="100%" alt="Graphify Labs: tools that help AI agents understand, build and verify software"/></a>
 </p>
 
-# Graphify
+<p align="center"><b>Give your AI agents a map of your codebase, then check the code they write.</b></p>
 
-**Understand your code — don't grep it.** We turn any folder of code, docs, PDFs, images, or video into a knowledge graph you *query, trace, and prove things about* instead of searching by hand.
+<p align="center">
+  <a href="https://github.com/Graphify-Labs/graphify"><img src="https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat&label=graphify%20stars&color=118d4f" alt="GitHub stars"/></a>
+  <a href="https://pepy.tech/project/graphifyy"><img src="https://img.shields.io/pepy/dt/graphifyy?color=118d4f&label=downloads" alt="Downloads"/></a>
+  <a href="https://www.ycombinator.com/companies/graphify-labs"><img src="https://img.shields.io/badge/Y%20Combinator-S26-F0652F?style=flat&logo=ycombinator&logoColor=white" alt="YC S26"/></a>
+  <a href="https://app.graphify.com/org-discord"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
+</p>
 
-[Website](https://graphify.com) · [graphify (open source)](https://github.com/Graphify-Labs/graphify) · [PyPI](https://pypi.org/project/graphifyy/) · [Discord](https://discord.gg/XDnKVpzdXB) · [LinkedIn](https://www.linkedin.com/company/graphify-labs)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-We ship two things, one idea: a **graph** of how your project actually fits together. The open-source tool builds that map on your machine for free. The enterprise platform builds a *smarter, verified* map — one that proves your changes are safe, remembers, learns, and runs entirely inside your own infrastructure.
+### Understand
+[**graphify**](https://github.com/Graphify-Labs/graphify) turns your code, docs, SQL schemas and configs into one knowledge graph your agent can query: who calls what, what a change touches, how A reaches B. Local AST parsing, every edge explained. Free and open source.
 
----
+</td>
+<td width="50%" valign="top">
 
-## graphify — open source, fully local
+### Give agents context
+The [**Graphify MCP server**](https://app.graphify.com/org-mcp) and **Graphify Cloud** hand your agent the exact part of the graph it needs, across all your repos. Works with Claude Code, Cursor, Codex, OpenCode, Gemini CLI and any MCP client.
 
-Type `/graphify` in your AI coding assistant and it maps an entire project into a persistent knowledge graph. Code is parsed locally with tree-sitter (deterministic, no LLM, nothing leaves your machine); docs, PDFs, images, and video get a semantic pass through your assistant's model or a configured key. You get three files: an interactive `graph.html`, a plain-language `GRAPH_REPORT.md`, and a GraphRAG-ready `graph.json`.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- **A real graph, not a vector index.** No embeddings, no vector store. You *traverse* it — ask a question, trace the shortest path between two things, or explain one concept and its neighbours.
-- **Code maps for free.** tree-sitter AST across ~40 languages resolves `calls` / `imports` / `inherits` edges with no API cost and no code leaving your machine.
-- **An honest audit trail.** Every edge is tagged `EXTRACTED` (explicit in the source) or `INFERRED` (resolved by graphify) — you always know what was read vs derived.
-- **Structure you wouldn't think to ask for.** *God nodes* surface what everything flows through; Leiden community detection groups the graph into labelled subsystems.
+### Review
+Graphify Cloud reviews your pull requests with the graph behind them, so findings point to real callers, blast radius and file:line, not guesses.
+
+</td>
+<td width="50%" valign="top">
+
+### Verify
+Graphify Cloud runs differential formal verification on pull requests: it compares the old and new code and shows what behaviour actually changed. [**REAgraph**](https://github.com/Graphify-Labs/REAgraph) is our open-source graph memory and structural diff for reverse engineering.
+
+</td>
+</tr>
+</table>
+
+### Get started in 30 seconds
 
 ```bash
-uv tool install graphifyy && graphify install     # register the skill with your assistant
-/graphify .                                        # Claude Code, Cursor, Codex, Copilot, Gemini CLI…
+uv tool install graphifyy   # or: pipx install graphifyy
+graphify install            # detects your assistant and registers the skill
 ```
 
-Docs: [how it works](https://github.com/Graphify-Labs/graphify) — the extraction pipeline, community detection, and confidence scoring.
+Then ask your agent about your codebase, or connect your repos to [**Graphify Cloud**](https://app.graphify.com/org-trial-cta) for PR review, verification and team-wide context.
 
----
+<p align="center">
+  <a href="https://app.graphify.com/org-trial-cta"><b>Try Graphify Cloud free →</b></a> ·
+  <a href="https://github.com/Graphify-Labs/graphify">graphify on GitHub</a> ·
+  <a href="https://app.graphify.com/org-docs">Docs</a> ·
+  <a href="https://app.graphify.com/org-discord">Discord</a> ·
+  <a href="https://app.graphify.com/org-x">X</a> ·
+  <a href="https://app.graphify.com/org-youtube">YouTube</a>
+</p>
 
-## Graphify Enterprise — the verified, on-prem platform
-
-The open-source tool tells you how your code fits together. **Enterprise tells you whether a change is safe — without your code ever leaving your building.** It's the same graph, made trustworthy for teams shipping AI-written code.
-
-- **Verified, not just reviewed.** Where a reviewer *guesses* a change looks fine, Graphify runs formal verification: it **proves** an edit behaves identically, or hands you the **exact input that breaks it — as a runnable test.** When it genuinely can't be sure, it says so. No false confidence.
-- **Runs in your VPC — code never leaves.** On-prem by default: CPU-local graph, retrieval, memory, and verification. No source or chat logs in someone else's cloud. The privacy claims are true *by construction*, not by policy.
-- **A grounded memory + fact-checker for your AI agents.** Over MCP, Cursor / Claude Code / Codex get provenance-carrying, honest-abstain answers — and can verify their own changes *before* you ever see the PR.
-- **PR review + merge gate for teams.** Every pull request gets a structural review and a codebase-aware verification, posted as a check — with an enforceable gate.
-- **It learns from you.** When a trusted maintainer says a finding is wrong, it remembers and suppresses it going forward — and always cites *why*. Preferences are advisory; correctness always wins.
-- **Enterprise-ready.** SSO, project scoping, a tamper-evident audit trail, and secret redaction before any model call.
-
-> **The one-liner:** every other AI code reviewer guesses. Ours proves — and it runs in your house.
-
----
-
-## How they fit: open core
-
-| | **graphify** (free) | **Enterprise** |
-|---|---|---|
-| The graph | ✅ built locally | ✅ richer-typed, deeper resolution, cross-repo |
-| Query & trace | ✅ | ✅ tuned for agents |
-| **Formal verification** | — | ✅ prove-or-counterexample |
-| **Grounded memory + fact-check** | — | ✅ over MCP, with provenance |
-| **Team PR review + merge gate** | — | ✅ |
-| **On-prem / SSO / RBAC / audit** | — | ✅ |
-| Deployment | your machine | your VPC (or our cloud — same app) |
-
-Start free on the open-source tool. Upgrade when you need to *prove* your code is right, share across a team, and keep everything inside your own infrastructure.
-
-**Talk to us:** [founders@graphifylabs.ai](mailto:founders@graphifylabs.ai) · [graphify.com](https://graphify.com) · [Discord](https://discord.gg/XDnKVpzdXB)
-
-_We think you're gonna like it here._
+<p align="center"><img src="https://raw.githubusercontent.com/Graphify-Labs/.github/main/profile/assets/footer.png" width="100%" alt="Graphify, graphify.com"/></p>
