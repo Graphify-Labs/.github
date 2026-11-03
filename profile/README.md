@@ -3,8 +3,11 @@
 <p align="center">
   <a href="https://github.com/Graphify-Labs/graphify"><img src="https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat&label=graphify%20stars&color=118d4f" alt="GitHub stars"/></a>
   <a href="https://pepy.tech/project/graphifyy"><img src="https://img.shields.io/pepy/dt/graphifyy?color=118d4f&label=downloads" alt="Downloads"/></a>
+  <a href="https://app.graphify.com/org-docs"><img src="https://img.shields.io/badge/Docs-read-118d4f?style=flat&logo=readthedocs&logoColor=white" alt="Docs"/></a>
+  <a href="https://app.graphify.com/org-cookbooks"><img src="https://img.shields.io/badge/Cookbooks-browse-118d4f?style=flat&logo=gitbook&logoColor=white" alt="Cookbooks"/></a>
+  <a href="https://app.graphify.com/org-mcp"><img src="https://img.shields.io/badge/MCP-server-118d4f?style=flat&logo=modelcontextprotocol&logoColor=white" alt="MCP server"/></a>
   <a href="https://www.ycombinator.com/companies/graphify-labs"><img src="https://img.shields.io/badge/Y%20Combinator-S26-F0652F?style=flat&logo=ycombinator&logoColor=white" alt="YC S26"/></a>
-  <a href="https://app.graphify.com/org-discord"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
+  <a href="https://discord.graphify.com"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
 </p>
 
 <table>
@@ -51,7 +54,7 @@ Then ask your agent about your codebase, or connect your repos to [**Graphify Cl
   <a href="https://app.graphify.com/org-trial-cta"><b>Try Graphify Cloud free →</b></a> ·
   <a href="https://github.com/Graphify-Labs/graphify">graphify on GitHub</a> ·
   <a href="https://app.graphify.com/org-docs">Docs</a> ·
-  <a href="https://app.graphify.com/org-discord">Discord</a> ·
+  <a href="https://discord.graphify.com">Discord</a> ·
   <a href="https://app.graphify.com/org-x">X</a> ·
   <a href="https://app.graphify.com/org-youtube">YouTube</a>
 </p>
