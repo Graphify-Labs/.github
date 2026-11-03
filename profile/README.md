@@ -12,7 +12,7 @@
 <td width="50%" valign="top">
 
 ### Understand
-[**graphify**](https://github.com/Graphify-Labs/graphify) turns your code, docs, SQL schemas and configs into one knowledge graph your agent can query: who calls what, what a change touches, how A reaches B. Local AST parsing, every edge explained. Free and open source.
+[**graphify**](https://app.graphify.com) turns your code, docs, SQL schemas and configs into one knowledge graph your agent can query: who calls what, what a change touches, how A reaches B. Local AST parsing, every edge explained. Free and open source.
 
 </td>
 <td width="50%" valign="top">
