@@ -1,6 +1,14 @@
 <p align="center"><b>Give your AI agents a map of your codebase, then verify the code they write.</b></p>
 
 <p align="center">
+  <a href="https://runacap.com/ross-index/q3-2026/"><img src="https://runacap.com/wp-content/uploads/2026/02/ROSS_badge_black_Q3_2026.svg" width="260" height="56" alt="ROSS Index Q3 2026, #2 fastest-growing open-source startup"/></a>
+</p>
+
+<p align="center">
+  Recognition: #2 on Runa Capital's ROSS Index Q3 2026 (top 20 fastest-growing open-source startups by GitHub star growth). Graphify-Labs/graphify: 78.2x star growth, 122.5K stars. Source: <a href="https://runacap.com/ross-index/q3-2026/">https://runacap.com/ross-index/q3-2026/</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/Graphify-Labs/graphify"><img src="https://img.shields.io/github/stars/Graphify-Labs/graphify?style=flat&label=graphify%20stars&color=118d4f" alt="GitHub stars"/></a>
   <a href="https://pepy.tech/project/graphifyy"><img src="https://img.shields.io/pepy/dt/graphifyy?color=118d4f&label=downloads" alt="Downloads"/></a>
   <a href="https://docs.graphify.com"><img src="https://img.shields.io/badge/Docs-read-118d4f?style=flat&logo=readthedocs&logoColor=white" alt="Docs"/></a>
