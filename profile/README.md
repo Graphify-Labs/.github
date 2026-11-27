@@ -48,7 +48,7 @@ The [**Graphify MCP server**](https://docs.graphify.com/platform/hosted-mcp) and
 ### Get started in 30 seconds
 
 ```bash
-uv tool install --python 3.12 graphifyy
+uv tool install graphifyy
 graphify install            # detects your assistant and registers the skill
 ```
 
